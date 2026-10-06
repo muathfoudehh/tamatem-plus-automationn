@@ -5,7 +5,7 @@ test('Login and Validate Checkout Payment Methods', async ({ page }) => {
 
 
   // Pause execution for manual inspection/debugging
-  await page.pause();
+  // await page.pause();
 
   // --------------------------------------------------------------------------
   // A LogIn with signed up email using POM

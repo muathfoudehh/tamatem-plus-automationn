@@ -4,7 +4,7 @@ import { LoginPage } from './Pages/LogInPage';
 
 test('Login', async ({ page }) => {
   await page.goto('https://stg-fe.tamatemplus.com/home', { waitUntil: 'domcontentloaded' });
-  await page.locator('#close > svg').click();
+  // await page.locator('#close > svg').click();
   await page.pause()
   await page.locator('[data-test-id="signup_button"]').click();
   await page.getByText('البريد الإلكتروني أو رقم الهاتف المحمول').click();
