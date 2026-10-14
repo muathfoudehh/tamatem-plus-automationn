@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './Pages/LogInPage';
+import { LoginPage } from '../Pages/LoginPage';{}
 
 test('Login', async ({ page }) => {
   await page.goto('https://stg-fe.tamatemplus.com/home', { waitUntil: 'domcontentloaded' });
